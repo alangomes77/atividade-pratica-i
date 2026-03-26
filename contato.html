@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contato - Alan Gomes</title>
+</head>
+
+<body>
+    <header>
+        <h1>Entre em contato</h1>
+        <p>Preencha o formulario para entrar em contato.</p>
+    </header>
+
+    <br>
+
+    <main>
+        <form action="sucesso.html">
+            <section>
+                <h2>Formulario:</h2>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required>
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="assunto">Assunto:</label><br>
+                <input type="text" id="assunto" name="assunto" required>
+                <br>
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+            </section>
+
+            <section>
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone">
+                <br><br>
+
+                <label for="data">Data de contato:</label><br>
+                <input type="date" id="data" name="data">
+                <br><br>
+
+                <label for="select">Assunto:</label><br>
+                <select id="select" name="select">
+                    <option value="">Selecione</option>
+                    <option value="option 1">Futebol</option>
+                    <option value="option 2">Estudos</option>
+                    <option value="option 3">Faculdade</option>
+                </select>
+            </section>
+
+            <br>
+
+            <section>
+                <label> Forma de contato preferida:</label><br>
+                <input type="radio" name="contato" value="email"> Email<br>
+                <input type="radio" name="contato" value="telefone"> Telefone
+
+            <br>
+                <label>Interesse:</label><br>
+
+                <input type="checkbox" name="interesse"> Futebol<br>
+                <input type="checkbox" name="interesse"> Faculdade<br>
+                <input type="checkbox" name="interesse"> Outros<br><br>
+            </section>
+
+            <section>
+                <button type="reset">Resetar</button>
+                <button type="submit">Enviar</button>
+            </section>
+        </form>
+        <br>
+        <a href="index.html">Voltar</a>
+
+    </main>
+</body>
+
+</html>
